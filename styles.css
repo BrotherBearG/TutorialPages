@@ -6,25 +6,6 @@ body {
     padding: 0;
 }
 
-header {
-    background: black;
-    padding: 20px;
-}
-
-section {
-    background: white;
-    color: gray;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-section div {
-    background: red;
-    margin: auto;
-    width: 100px;
-}
-
 ul {
     margin: 0;
     padding: 0;
@@ -42,6 +23,36 @@ a {
     color: red;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+header {
+    background: black;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+section div {
+    background: red;
+    margin: auto 5px;
+    width: auto;
+    height: 140px;
+    padding: 5px;
+}
+
+section div.home {
+    font-size: 25px;
+}
+
+section.home-page {
+    font-size: 25px;
+    color: blue;
 }
 
 footer {
