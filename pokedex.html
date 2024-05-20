@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <link rel="stylesheet" href="pokedex.css">
+    <script src="pokedex.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="location.html">Locations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="pokedex.html">Pokedex</a></li>
+            </ul>
+        </nav>
+        <h1>Pokedex</h1>
+    </header>
+    <div id="content-box">
+        <!-- pokeapi.co -->
+        <!-- left side, pokemon info -->
+        <div id="pokemon-info">
+            <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">
+            <div id="pokemon-types">
+                <span class="type-box grass">GRASS</span><span class="type-box poison">POISON</span>
+            </div>
+            <div id="pokemon-description"></div>
+        </div>
+        <!-- Right side, display pokemon list -->
+        <div id="pokemon-list"></div>
+    </div>
+</body>
+</html>
